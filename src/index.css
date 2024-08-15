@@ -1,6 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- ::selection{
-    color: rgb(151, 97, 30);
- }
+::selection {
+  color: rgb(151, 97, 30);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background:#18181b;
+  color: #F6F6F6;
+}
+
+select {
+  cursor: pointer;
+}
